@@ -5,7 +5,7 @@ import Gun from "../assets/gun.png"
 const Body = () => {
     return(
         <>
-            <div className="grid grid-cols-5 gap-1 text-center text-white mr-1 ">
+            <div className="grid grid-cols-5 gap-1 text-center text-white mr-1">
                <div className="bg-[#2C3137] pt-1 font-semibold">
                     <label className="bg-[#141117] mr-1 ml-1 flex items-center h-10 rounded-tl-md rounded-tr-md"><span className="ml-4">My Bets 777,777</span><span className="ml-auto mr-4"><span className="text-[#f8bf60]">$</span><span>5000,000.00</span></span></label>
                     <div className="grid grid-cols-3 mt-1">
@@ -171,9 +171,9 @@ const Body = () => {
                
                <div className="col-span-3 ">
                     <div>
-                        <img src={Gun} alt="gun" className="w-full h-[644px]"></img>
+                        <img src={Gun} alt="gun" className="w-full h-[634px]"></img>
                     </div>
-                    <div className="ml-auto mr-auto mt-1 bg-[#2C3137] flex">
+                    <div className="ml-auto mr-auto mt-1 bg-[#2C3137] flex h-[6%]">
                         <button className=" bg-[#f8bf60] mt-1 mb-1 mr-1 rounded-sm text-lg font-bold text-slate-800 px-2">x2,738.16</button>
                         <button className=" bg-[#8d52c6] mt-1 mb-1 mr-1 rounded-sm text-lg font-bold text-slate-800 px-2">x273.52</button>
                         <button className=" bg-[#f0f1f3] mt-1 mb-1 mr-1 rounded-sm text-lg font-bold text-slate-800 px-2">x14.21</button>

@@ -12,7 +12,7 @@ const MainPage = () => {
                     <div className="h-[5vh]"><Header /></div>
                     <div className="h-[5vh]"></div>
                     <div className="h-[5vh]"><Top /></div>
-                    <div className="h-[73vh] overflow-hidden"><Body /></div>
+                    <div className="h-[73vh] overflow-y-auto"><Body /></div>
                     <div className="h-[10vh] overflow-hidden"><Control /></div>
                 </div>
                 <div>
