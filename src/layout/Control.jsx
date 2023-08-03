@@ -15,7 +15,6 @@ const Control = () => {
                     </div>
 
                </div>
-            
 
                <div className="bg-[#2C3137] pt-3 font-semibold">
                     <div className="bg-[#0e0e0e] text-[#f8bf60] h-6 mr-1 ml-1 rounded-md -mt-2">$5,000.00 PROFIT ON WIN</div>
