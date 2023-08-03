@@ -5,7 +5,7 @@ import Dia from "../assets/dia.png"
 const Control = () => {
     return(
         <>
-            <div className="grid grid-cols-5 gap-1 mt-1 h-24 text-center text-white mr-1">
+            <div className="grid grid-cols-5 gap-1 text-center text-white mr-1">
 
                <div className="bg-[#2C3137] pt-3 font-semibold">
                     <div>TYPE</div>

@@ -5,7 +5,7 @@ import Gun from "../assets/gun.png"
 const Body = () => {
     return(
         <>
-            <div className="grid grid-cols-5 gap-1 -mt-9 text-center text-white mr-1">
+            <div className="grid grid-cols-5 gap-1 text-center text-white mr-1 ">
                <div className="bg-[#2C3137] pt-1 font-semibold">
                     <label className="bg-[#141117] mr-1 ml-1 flex items-center h-10 rounded-tl-md rounded-tr-md"><span className="ml-4">My Bets 777,777</span><span className="ml-auto mr-4"><span className="text-[#f8bf60]">$</span><span>5000,000.00</span></span></label>
                     <div className="grid grid-cols-3 mt-1">
@@ -169,7 +169,7 @@ const Body = () => {
 
                </div>   
                
-               <div className="col-span-3">
+               <div className="col-span-3 ">
                     <div>
                         <img src={Gun} alt="gun" className="w-full h-[644px]"></img>
                     </div>
