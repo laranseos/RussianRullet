@@ -25,7 +25,7 @@ const Control = () => {
                             <label className="ml-4 text-white text-sm">777,777.77</label>
                             <img src={Dia} alt="logo" className="h-4 text-left pt-1 grid-cols-4 ml-auto mr-2"></img>
                         </button>
-                        <button className=" mr-1 w-20 h-8 bg-[#0e0e0e] items-center text-center hover:bg-slate-900 text-white shadow-md shadow-slate-600">1/2</button>
+                        <button className=" w-20 h-8 bg-[#0e0e0e] items-center text-center hover:bg-slate-900 text-white shadow-md shadow-slate-600">1/2</button>
                         <button className=" mr-1 w-20 h-8 bg-[#0e0e0e] items-center text-center rounded-r-md hover:bg-slate-900 text-white shadow-md shadow-slate-600">x2</button>
                     </div>
 
@@ -68,7 +68,7 @@ const Control = () => {
                             <label className="ml-1 text-white text-sm">777,777.77</label>
                             <img src={Dia} alt="logo" className="h-4 text-left pt-1 grid-cols-4 ml-auto mr-2"></img>
                         </button>
-                        <button className=" mr-1 w-20 h-8 bg-[#0e0e0e] items-center text-center hover:bg-slate-900 text-white shadow-md shadow-slate-600">1/2</button>
+                        <button className="w-20 h-8 bg-[#0e0e0e] items-center text-center hover:bg-slate-900 text-white shadow-md shadow-slate-600">1/2</button>
                         <button className=" mr-1 w-20 h-8 bg-[#0e0e0e] items-center text-center rounded-r-md hover:bg-slate-900 text-white shadow-md shadow-slate-600">x2</button>
                     </div>
 
