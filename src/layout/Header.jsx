@@ -6,7 +6,7 @@ import Dia from "../assets/dia.png"
 const Header = () => {
     return(
         <>
-            <div className=" bg-[#1c2127] h-12 items-center text-center shadow-md shadow-black grid grid-cols-3">
+            <div className=" bg-[#1c2127] items-center text-center shadow-md shadow-black grid grid-cols-3">
                 <div><img src={Logo} alt="logo" className="h-10 w-26 text-left ml-2 py-1 "></img></div>
                 <div className="mr-auto ml-auto flex">
                     <button className="w-8 h-8 bg-[#f8bf60] items-center text-center rounded-l-sm hover:bg-[#fedf90] hover:drop-shadow-xl"><svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 ml-auto mr-auto" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M21 9.5v3c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5v-3c0 2.485 4.03 4.5 9 4.5s9-2.015 9-4.5zm-18 5c0 2.485 4.03 4.5 9 4.5s9-2.015 9-4.5v3c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5v-3zm9-2.5c-4.97 0-9-2.015-9-4.5S7.03 3 12 3s9 2.015 9 4.5-4.03 4.5-9 4.5z"/> </g> </svg></button>
