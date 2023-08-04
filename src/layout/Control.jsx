@@ -1,8 +1,12 @@
 import React from "react";
 import Dia from "../assets/dia.png"
-
+import Modal from "../pages/Modal/Modal"
+import "../pages/Modal/modal.css"
 
 const Control = () => {
+    const handleClick=()=>{
+        document.getElementById('playModal').classList.remove('hidden')
+    }
     return(
         <>
             <div className="grid grid-cols-5 gap-1 text-center text-white mr-1">
@@ -51,11 +55,13 @@ const Control = () => {
                </div>
 
                <div className="bg-[#2C3137] items-center flex">
-                        <button className="ml-auto mt-4 mb-4 mr-0.5 h-16 w-16 text-2xl bg-[#f8bf60] items-center text-center  rounded-l-md hover:bg-[#fedf90] text-black shadow-md shadow-yellow-700 justify-center"><svg fill="#000000" className="w-10 h-10 ml-auto mr-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M2.5,8.9l9,5.2c0.2,0.1,0.3,0.1,0.5,0.1c0.2,0,0.3,0,0.5-0.1l9-5.2c0.2-0.1,0.3-0.2,0.4-0.4C22.1,8,22,7.4,21.5,7.1l-9-5.2c-0.3-0.2-0.7-0.2-1,0l-9,5.2C2.3,7.2,2.2,7.3,2.1,7.5C1.9,8,2,8.6,2.5,8.9z M21.5,11.1L21.3,11l-8.8,5.1c-0.3,0.2-0.7,0.2-1,0L2.7,11l-0.2,0.1C2,11.4,1.9,12,2.1,12.5c0.1,0.2,0.2,0.3,0.4,0.4l9,5.2c0.3,0.2,0.7,0.2,1,0l9-5.2c0.5-0.3,0.6-0.9,0.4-1.4C21.8,11.3,21.7,11.2,21.5,11.1z M21.5,15.1L21.3,15l-8.8,5.1c-0.3,0.2-0.7,0.2-1,0L2.7,15l-0.2,0.1C2,15.4,1.9,16,2.1,16.5c0.1,0.2,0.2,0.3,0.4,0.4l9,5.2c0.3,0.2,0.7,0.2,1,0l9-5.2c0.5-0.3,0.6-0.9,0.4-1.4C21.8,15.3,21.7,15.2,21.5,15.1z"/></svg></button>
+                        <button onClick={handleClick} className="ml-auto mt-4 mb-4 mr-0.5 h-16 w-16 text-2xl bg-[#f8bf60] items-center text-center  rounded-l-md hover:bg-[#fedf90] text-black shadow-md shadow-yellow-700 justify-center"><svg fill="#000000" className="w-10 h-10 ml-auto mr-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"><path d="M2.5,8.9l9,5.2c0.2,0.1,0.3,0.1,0.5,0.1c0.2,0,0.3,0,0.5-0.1l9-5.2c0.2-0.1,0.3-0.2,0.4-0.4C22.1,8,22,7.4,21.5,7.1l-9-5.2c-0.3-0.2-0.7-0.2-1,0l-9,5.2C2.3,7.2,2.2,7.3,2.1,7.5C1.9,8,2,8.6,2.5,8.9z M21.5,11.1L21.3,11l-8.8,5.1c-0.3,0.2-0.7,0.2-1,0L2.7,11l-0.2,0.1C2,11.4,1.9,12,2.1,12.5c0.1,0.2,0.2,0.3,0.4,0.4l9,5.2c0.3,0.2,0.7,0.2,1,0l9-5.2c0.5-0.3,0.6-0.9,0.4-1.4C21.8,11.3,21.7,11.2,21.5,11.1z M21.5,15.1L21.3,15l-8.8,5.1c-0.3,0.2-0.7,0.2-1,0L2.7,15l-0.2,0.1C2,15.4,1.9,16,2.1,16.5c0.1,0.2,0.2,0.3,0.4,0.4l9,5.2c0.3,0.2,0.7,0.2,1,0l9-5.2c0.5-0.3,0.6-0.9,0.4-1.4C21.8,15.3,21.7,15.2,21.5,15.1z"/></svg></button>
                         <a href="/autoplay"><button className="h-16 bg-[#f8bf60] hover:bg-[#fedf90] text-black text-4xl font-bold w-44 shadow-md shadow-yellow-600">PLAY</button></a>
                         <button className="mr-auto mt-4 mb-4 ml-0.5 h-16 w-16 bg-[#f8bf60] items-center text-center  rounded-r-md hover:bg-[#fedf90] text-black shadow-md shadow-yellow-600 justify-center"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" className=" mr-auto ml-auto w-9 h-9" viewBox="0 0 118.04 122.88"><path d="M16.08,59.26A8,8,0,0,1,0,59.26a59,59,0,0,1,97.13-45V8a8,8,0,1,1,16.08,0V33.35a8,8,0,0,1-8,8L80.82,43.62a8,8,0,1,1-1.44-15.95l8-.73A43,43,0,0,0,16.08,59.26Zm22.77,19.6a8,8,0,0,1,1.44,16l-10.08.91A42.95,42.95,0,0,0,102,63.86a8,8,0,0,1,16.08,0A59,59,0,0,1,22.3,110v4.18a8,8,0,0,1-16.08,0V89.14h0a8,8,0,0,1,7.29-8l25.31-2.3Z"/></svg></button>
                </div>
-
+               <div id="playModal" className="modal hidden fixed inset-0 overflow-y-auto first:opacity-100 w-full h-full bg-black bg-opacity-80">
+                <div className=" opacity-100"><Modal /></div>
+                 </div>
                <div className="bg-[#2C3137] pt-3 font-semibold">
                     <div className="flex -mt-2">
                         <button className=" ml-auto w-32 h-6 bg-[#f8bf60] items-center text-center mr-0.5 rounded-l-md hover:bg-[#fedf90] text-black">BASE</button>
