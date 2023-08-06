@@ -6,7 +6,7 @@ import Control from "../layout/Control";
 import RightChat from "../layout/RightChat";
 const MainPage = () => {
     return(
-        <>
+        <React.Fragment>
             <div className="bg-[#141117] h-screen grid grid-cols-6">
                 <div className="col-span-5 max-h-screen space-y-1">
                     <div className="h-[5vh]"><Header /></div>
@@ -19,7 +19,7 @@ const MainPage = () => {
                     <RightChat />
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
 

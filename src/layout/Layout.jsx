@@ -3,9 +3,9 @@ import Routers from "../router/Router";
 
 const Layout = () => {
     return(
-        <>
+        <React.Fragment>
             <Routers />
-        </>
+        </React.Fragment>
     )
 }
 

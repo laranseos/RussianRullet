@@ -54,7 +54,7 @@ const Test = () => {
 
     return(
         <>
-            <div className="h-screen items-center grid grid-cols-5">
+            <div className="h-screen items-center grid grid-cols-5 ">
                 <div></div>
                 <div></div>
                 
