@@ -2,7 +2,7 @@ import React from "react";
 import Top from "../layout/autoplay/Top";
 import Body from "../layout/autoplay/Body";
 import Header from "../layout/autoplay/Header";
-import Control from "../layout/autoplay/Control";
+import Control from "../layout/autoplay/Controls";
 import RightChat from "../layout/RightChat";
 import Bar from "../layout/autoplay/Bar";
 const Autoplay = () => {

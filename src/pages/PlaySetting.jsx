@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const Test = () => {
+const PlaySetting = () => {
 
     const [rounds, setRounds] = useState('9999');
 
@@ -46,14 +46,13 @@ const Test = () => {
         setBetOnLoss(betOnLoss+1);
     }
 
-    const [isExpanded, setExpanded] = useState(true);
+    const [isExpanded, setExpanded] = useState(false);
 
     const handleExpanded = () => {
         setExpanded(!isExpanded);
     }
 
     return(
-        <div className=" h-screen w-screen bg-[#141117]">
             <div className="h-screen items-center grid grid-cols-5 ">
                 <div></div>
                 <div></div>
@@ -323,8 +322,7 @@ const Test = () => {
                 <div></div>
                 <div></div>
             </div>
-        </div>
     )
 }
 
-export default Test
+export default PlaySetting
