@@ -4,7 +4,7 @@ import Gun from "../assets/gun.png"
 const View = () => {
     return(
         <>
-            <div className="h-screen w-screen grid grid-cols-2">
+            <div className="h-screen w-screen grid grid-cols-4">
                 <div className="h-screen bg-[#141117] items-center justify-center text-center space-y-2">
                     <div className="mt-4 mx-16 ">
                         <a href="/home"><button className="bg-black text-left px-4 w-96 h-20 rounded-r-full text-white hover:text-black hover:bg-[#f8bf60] text-4xl font-bold">1. Main Page</button></a>
@@ -34,7 +34,7 @@ const View = () => {
                         <a href="/betinfo"><button className="bg-black text-left px-4  w-96 h-20 rounded-r-full text-white hover:text-black hover:bg-[#f8bf60] text-4xl font-bold">9. Bet Information</button></a>
                     </div>
                 </div>
-                <div className="h-screen"><img className="h-screen w-full" src={Gun} alt="gun"/></div>
+                <div className="h-screen col-span-3"><img className="h-screen w-full" src={Gun} alt="gun"/></div>
             </div>
         </>
     )
